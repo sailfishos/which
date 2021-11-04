@@ -2,7 +2,7 @@
 %global _upstream_ver 2.21
 Summary: Displays where a particular program in your path is located
 Name: gnu-which
-Version: %{_upstream_ver}+git1
+Version: %{_upstream_ver}+git2
 Release: 1
 License: GPLv3
 Source0: %{_name}-%{_upstream_ver}.tar.gz
@@ -11,6 +11,8 @@ Source2: which2.csh
 Patch0: which-2.21-coverity-fixes.patch
 Url: https://savannah.gnu.org/projects/which/
 Requires: coreutils
+Provides: which
+Conflicts: busybox-symlinks-which
 BuildRequires: make
 BuildRequires: gcc
 BuildRequires: pkgconfig(readline)
