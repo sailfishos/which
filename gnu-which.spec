@@ -21,7 +21,7 @@ The which command shows the full pathname of a specified program, if
 the specified program is in your PATH.
 
 %prep
-%autosetup -p1
+%autosetup -p1 -n %{_name}-%{_upstream_ver}
 
 %build
 %configure
