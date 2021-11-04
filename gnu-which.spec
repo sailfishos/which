@@ -1,10 +1,11 @@
 %global _name which
+%global _upstream_ver 2.21
 Summary: Displays where a particular program in your path is located
 Name: gnu-which
-Version: 2.21+git1
+Version: %{_upstream_ver}+git1
 Release: 1
 License: GPLv3
-Source0: http://ftp.gnu.org/gnu/which/%{_name}-%{version}.tar.gz
+Source0: %{_name}-%{_upstream_ver}.tar.gz
 Source1: which2.sh
 Source2: which2.csh
 Patch0: which-2.21-coverity-fixes.patch
