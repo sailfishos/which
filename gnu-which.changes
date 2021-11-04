@@ -1,2 +1,5 @@
+* Thu Nov 04 2021 Matti Kosola <matti.kosola@jolla.com> - 2.21+git2
+- [which] Provide which. JB#46906
+
 * Thu Oct 27 2021 Björn Bidar <bjorn.bidar@jolla.com> - 2.21+git1
 - [which] Initial packaging. Fixes JB#46906
